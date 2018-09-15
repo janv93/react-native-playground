@@ -14,7 +14,7 @@ type
 Props = {};
 export default class Component1 extends Component<Props> {
 
-    static navigationOptions = {
+    static navigationOptions = {		// kein back button da home screen
         header: null
     }
 
